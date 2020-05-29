@@ -8,7 +8,7 @@ Created on Sun May 24 20:42:21 2020
 
 import requests, wget, webbrowser
 import pandas as pd
-df = pd.read_excel("FreeEnglishtextbooks1.xlsx")
+df = pd.read_excel("FreeEnglishtextbooksAll.xlsx")
 
 for index, row in df.iterrows():
         # loop through the excel list
